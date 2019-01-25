@@ -92,10 +92,10 @@ class TwitterPoster:
         return 
 
 if __name__ == "__main__":
-    consumer_key = "rb2YySEaGBJgWrXov54FMdsdZ"
-    consumer_secret = "rXqcQ1WDrbx1HLIGbZ46FQq8X7hLBDSfx7ryI0zaCGQGv0ogSL"
-    access_token = "1087594166769594368-irKDVWtpq0NolupqwRHp4TsjoMe1Wz"
-    access_token_secret = "wu451rkJiOMWL0fh5FzBM6WDW6XtI43MSBRno67NJoWvO"
+    consumer_key = ""
+    consumer_secret = ""
+    access_token = ""
+    access_token_secret = ""
     access_info = [access_token,access_token_secret]
     tokens = {"consumer":[consumer_key,consumer_secret],"access":[access_info]}
     twt = TwitterPoster(tokens)
